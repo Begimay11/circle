@@ -1,0 +1,67 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    margin: 0 auto;
+    margin: 10px 0 10px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background: #1d1d1d;
+    /* transition: 1s; */
+}
+.square:hover{
+    transition-duration: 0s;
+}
+button{
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.charac{
+    display: flex;
+    flex-wrap: wrap;
+}
+.character{
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: none;
+}
+/* .charac{
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: none;
+    position: absolute;
+    z-index: 1000;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 0.54s;
+} */
